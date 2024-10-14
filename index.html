@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Secret number</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+      integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="game-section" id="elementTranslate">
+      <h1>Try to get the secret number</h1>
+      <h3>
+        The secret number is between <span id="lower-value">0</span> e
+        <span id="highest-value">100</span>
+      </h3>
+      <div id="guess" class="message">Say a number to start!</div>
+    </section>
+
+    <script type="text/javascript" src="./app/translater.js"></script>
+    <script src="./app/configTranslate.js" data-gt-widget-id="43217984"></script>
+    <script src="./app/drawNumber.js"></script>
+    <script src="./app/recognizeVoice.js"></script>
+    <script src="./app/validate.js"></script>
+  </body>
+</html>
